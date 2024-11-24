@@ -67,6 +67,14 @@ header nav a {
     
 }
 
+.hero .apropos {
+    font-family: 'Arsenal', sans-serif;
+    color: #FE83C6;
+    margin-bottom: 10px;
+    font-size: 150px;
+    
+}
+
 .hero h1 {
     font-family: 'Black Ops One', sans-serif;
     font-size: 15vw;
@@ -95,6 +103,26 @@ header nav a {
 
 .cta-button:hover {
     background-color: #FE83C6;
+}
+
+.hero h2 {
+    color: #323232; 
+}
+
+.profile-photo {
+    display: block; /* Centre l'image en ajoutant des marges */
+    margin: 20px auto;
+    width: 1000px; /* Ajuste la taille maximale */
+    height: 1500px;
+    border-radius: 20px; /* Rend l'image ronde*/
+    object-fit: cover;
+    filter: grayscale(100%); /* Noir et blanc */
+    transition: filter 0.3s ease; /* Animation pour l'effet au survol */
+    
+}
+
+.profile-photo:hover {
+    filter: grayscale(0%) brightness(0.9) sepia(0.4) hue-rotate(330deg); /* L'image redevient en couleur au survol */
 }
 
 /* Section Carrousel */
@@ -133,6 +161,15 @@ header nav a {
 }
 
 /* Formulaire de contact */
+.contact-form .tagline {
+    font-family: 'Vujahday Script', cursive;
+    font-style: italic;
+    color: #FE83C6;
+    margin-bottom: 10px;
+    font-size: 150px;
+    
+}
+
 .contact-form {
     margin: 50px 20px;
     text-align: center;
